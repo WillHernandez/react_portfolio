@@ -4,7 +4,6 @@ import Row from 'react-bootstrap/Row';
 import "bootstrap/dist/css/bootstrap.min.css";
 import { AiFillMail } from "react-icons/ai";
 import { FaGithubSquare } from "react-icons/fa";
-import { FaPhoneSquare } from "react-icons/fa";
 import { FaCity } from "react-icons/fa";
 
 const Header = () => {
@@ -28,9 +27,6 @@ const Header = () => {
             <li>
               <FaGithubSquare id='faIcon'/>
               <a href={github} rel='noreferrer' target='_blank'>github.com/WillHernandez</a>
-            </li>
-            <li className='mobileHide'>
-              <FaPhoneSquare id='faIcon' /> (718) 313-6213
             </li>
             <li className='mobileHide'>
               <FaCity id='faIcon' /> New York, NY
