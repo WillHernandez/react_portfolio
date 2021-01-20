@@ -60,6 +60,6 @@ const data = {
     title: 'Devtools incorrectly opens a new browser window when refreshed',
     href: 'https://chromium-review.googlesource.com/c/devtools/devtools-frontend/+/2606131/',
     img: '/img/contrib3.jpg',
-    desc: 'Added an additional if statement that checks if our current dockController instance has been given a dockside. Devtools on devtools is not given a dockside therefor will return and not open a new toolboxwindow.'
+    desc: 'WIP'
   }
 }
