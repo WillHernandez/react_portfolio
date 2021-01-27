@@ -51,15 +51,15 @@ const data = {
     desc: 'Fixed the order in which a visited pages mimeType was set. Added a new mimeType to recognize and allow the formatting of minified asset files when directly visited on a webpage.'
   },
   two: {
+    title: 'Devtools incorrectly opens a new browser window when refreshed',
+    href: 'https://chromium-review.googlesource.com/c/devtools/devtools-frontend/+/2606131/',
+    img: '/img/contrib3.jpg',
+    desc: 'WIP'
+  },
+  three: {
     title: 'Prevent “Emulated Devices” text from wrapping',
     href: 'https://chromium-review.googlesource.com/c/devtools/devtools-frontend/+/2493185',
     img: '/img/contrib2.jpg',
     desc: 'Changed a style property on the “Emulated Devices” h1 to prevent it from wrapping to the next line and clashing with the "Add custom device” button when the DevTools window is resized.'
   },
-  three: {
-    title: 'Devtools incorrectly opens a new browser window when refreshed',
-    href: 'https://chromium-review.googlesource.com/c/devtools/devtools-frontend/+/2606131/',
-    img: '/img/contrib3.jpg',
-    desc: 'WIP'
-  }
 }
