@@ -6,7 +6,7 @@ function AboutMe() {
     <Container className='outerContainer'>
       <div className="innerContainer aboutmeContainer">
         <p>
-          Lorem ipsum dolor sit, amet consectetur adipisicing elit. Iusto, odit doloribus! Natus repudiandae accusantium, sapiente aliquam ipsam laboriosam nihil quasi quaerat enim ut commodi, et numquam error dolore omnis, inventore maxime quibusdam. Corporis velit odio molestiae nihil nobis itaque, ducimus, veniam harum cupiditate aperiam tempora blanditiis culpa est, iusto praesentium.
+          Self-taught programmer currently based in New York City. Proponent of open source softwares and their communities. Over the last year I have been a steady contributor to the Google Chromium Devtools. Some of the many aspects of programming I enjoy the most is the ability to create something new and inspiring and the never ending process of cultivating your own style. I am open to relocating.
         </p>
       </div>
     </Container>
