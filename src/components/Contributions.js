@@ -7,7 +7,7 @@ const Contributions = () => {
   return (
     <Container className='outerContainer'>
       <div className='innerContainer'>
-        <h3>Google Chrome Devtools Contributons</h3>
+        <h3>Google Chromium Devtools Contributions</h3>
         <ContribComponent title={data.one.title} href={data.one.href} src={data.one.img} desc={data.one.desc}/>
         <ContribComponent title={data.four.title} href={data.four.href} src={data.four.img} desc={data.four.desc}/>
         <ContribComponent title={data.three.title} href={data.three.href} src={data.three.img} desc={data.three.desc}/>
