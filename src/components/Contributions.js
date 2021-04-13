@@ -8,9 +8,9 @@ const Contributions = () => {
     <Container className='outerContainer'>
       <div className='innerContainer'>
         <h3>Google Chromium Devtools Contributions</h3>
+        <ContribComponent title={data.three.title} href={data.three.href} src={data.three.img} desc={data.three.desc}/>
         <ContribComponent title={data.one.title} href={data.one.href} src={data.one.img} desc={data.one.desc}/>
         <ContribComponent title={data.four.title} href={data.four.href} src={data.four.img} desc={data.four.desc}/>
-        <ContribComponent title={data.three.title} href={data.three.href} src={data.three.img} desc={data.three.desc}/>
         <ContribComponent title={data.two.title} href={data.two.href} src={data.two.img} desc={data.two.desc}/>
         <Link to='/contributions'>MORE CONTRIBUTIONS</Link>
       </div>
@@ -46,27 +46,27 @@ const ContribComponent = (props) => {
 
 const data = {
   one: {
-    title: 'Pretty-print directly visited minified asset files',
+    title: 'Pretty-print directly visited minified asset files.',
     href:'https://chromium-review.googlesource.com/c/devtools/devtools-frontend/+/2572038/',
-    img:'/img/contrib1.jpg',
+    img:'/img/2572038.jpg',
     desc: 'Fixed the order in which a visited pages mimeType was set. Added a new mimeType to recognize and allow the formatting of minified asset files when directly visited on a webpage.'
   },
   two: {
-    title: 'Devtools incorrectly opens a new browser window when refreshed',
+    title: 'Devtools incorrectly opens a new browser window when refreshed.',
     href: 'https://chromium-review.googlesource.com/c/devtools/devtools-frontend/+/2606131/',
-    img: '/img/contrib3.jpg',
+    img: '/img/2606131.jpg',
     desc: 'WIP'
   },
   three: {
-    title: 'Prevent “Emulated Devices” text from wrapping',
-    href: 'https://chromium-review.googlesource.com/c/devtools/devtools-frontend/+/2493185',
-    img: '/img/contrib2.jpg',
-    desc: 'Changed a style property on the “Emulated Devices” h1 to prevent it from wrapping to the next line and clashing with the "Add custom device” button when the DevTools window is resized.'
+    title: 'Created a check on our document for any custom css varibles.',
+    href: 'https://chromium-review.googlesource.com/c/devtools/devtools-frontend/+/2803333',
+    img: '/img/2803333.jpg',
+    desc: 'Created a check for shorthand css properties. Used a regex to extract any longhand css properties from our current shorthand property. Added each extracted longhand property to our activeProperties map which will add a check to the property and uncheck any following conflicting css properties.'
   },
   four: {
-    title: 'Opening a new tab on formatted files opens an invalid window',
+    title: 'Opening a new tab on formatted files opens an invalid window.',
     href: 'https://chromium-review.googlesource.com/c/devtools/devtools-frontend/+/2769978/',
-    img: '/img/contrib4.jpg',
+    img: '/img/2769978.jpg',
     desc: 'Added a check for tabs that are formatted. If the tab we are attempting to open a new tab on is formatted, return and open the url of its unformatted equivalent.'
   }
 }
