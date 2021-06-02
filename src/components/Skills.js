@@ -10,13 +10,13 @@ const Skills = () => {
           <h3>Skills</h3>
           <ul>
             <li>Javscript</li>
-            <li>ES6</li>
-            <li>React</li>
             <li>HTML</li>
             <li>CSS</li>
+            <li>React</li>
             <li>Node</li>
-            <li>Karma</li>
-            <li>Jest</li>
+            <li>Mocha testing</li>
+            <li>Karma testing</li>
+            <li>Jest testing</li>
             <li>Git/Mercurial</li>
           </ul>
         </div>
