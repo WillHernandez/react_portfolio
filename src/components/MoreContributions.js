@@ -12,7 +12,8 @@ const MoreContributions = () => {
         <div className="returnHome">
           <Link to='/'>RETURN HOME</Link>
         </div>
-        <Contribution href={data.one.href} desc={data.one.desc} />
+        <Contribution link={data.one.link} href={data.one.href} desc={data.one.desc} />
+        <Contribution link={data.two.link} href={data.two.href} desc={data.two.desc} />
       </div>
     </Container>
     </>
@@ -28,7 +29,7 @@ const Contribution = (props) => {
           <p className='moreContDesc'>{props.desc}</p>
         </div>
         <div className="link">
-          <a href={props.href} target='_blank' rel='noreferrer'>MERGED CODE</a>
+          <a href={props.link} target='_blank' rel='noreferrer'>ISSUE</a> | <a href={props.href} target='_blank' rel='noreferrer'>MERGED CODE</a>
         </div>
       </li>
     </ul>
@@ -37,11 +38,13 @@ const Contribution = (props) => {
 
 const data = {
   one: {
+    link: 'https://bugs.chromium.org/p/chromium/issues/detail?id=1137733',
     href: 'https://chromium-review.googlesource.com/c/devtools/devtools-frontend/+/2493185',
     desc:'Prevent “Emulated Devices” text from wrapping. Changed a style property on the “Emulated Devices” h1 to prevent it from wrapping to the next line and clashing with the "Add custom device” button when the DevTools window is resized.',
   },
   two: {
-    href: 'https://chromium-review.googlesource.com/c/devtools/devtools-frontend/+/2493185',
-    desc: 'Changed a style property on the “Emulated Devices” h1 to prevent it from wrapping to the next line and clashing with the "Add custom device” button when the DevTools window is resized.',
+    link: 'https://chromium-review.googlesource.com/c/devtools/devtools-frontend/+/2606131/',
+    href: 'https://chromium-review.googlesource.com/c/devtools/devtools-frontend/+/2606131/',
+    desc: 'Work In Progress.',
   },
 }
