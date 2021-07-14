@@ -10,10 +10,11 @@ const Skills = () => {
           <h3>Skills</h3>
           <ul>
             <li>Javscript</li>
+            <li>Typescript</li>
             <li>HTML</li>
             <li>CSS</li>
             <li>React</li>
-            <li>Node</li>
+            <li>Node JS</li>
             <li>Mocha testing</li>
             <li>Karma testing</li>
             <li>Jest testing</li>
