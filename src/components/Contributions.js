@@ -10,9 +10,9 @@ const Contributions = () => {
         <h3>Google Chromium Devtools Contributions</h3>
         <div className='userProfileContainer'>
           <a href={data.profile.href} target='_blank'm rel='noreferrer'>
-		          <div className='userProfile'>
-			          <img src={data.profile.img} alt="" />Chromium User Profile
-		          </div>
+            <div className='userProfile'>
+              <img src={data.profile.img} alt="" />Chromium User Profile
+            </div>
           </a>
         </div>
         <ContribComponent title={data.five.title} issue={data.five.issue} href={data.five.href} src={data.five.img} desc={data.five.desc}/>
