@@ -30,7 +30,7 @@ const Contribution = (props) => {
           <p className='moreContDesc'>{props.desc}</p>
         </div>
         <div className="link">
-          <a href={props.link} target='_blank' rel='noreferrer'>ISSUE</a> | <a href={props.href} target='_blank' rel='noreferrer'>MERGED CODE</a>
+          <a href={props.link} target='_blank' rel='noreferrer'>Bug Report</a> | <a href={props.href} target='_blank' rel='noreferrer'>Merged Code</a>
         </div>
       </li>
     </ul>

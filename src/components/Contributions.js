@@ -8,6 +8,13 @@ const Contributions = () => {
     <Container className='outerContainer'>
       <div className='innerContainer'>
         <h3>Google Chromium Devtools Contributions</h3>
+        <div className='userProfileContainer'>
+          <a href={data.profile.href} target='_blank'm rel='noreferrer'>
+		          <div className='userProfile'>
+			          <img src={data.profile.img} alt="" />Chromium User Profile
+		          </div>
+          </a>
+        </div>
         <ContribComponent title={data.five.title} issue={data.five.issue} href={data.five.href} src={data.five.img} desc={data.five.desc}/>
         <ContribComponent title={data.three.title} issue={data.three.issue} href={data.three.href} src={data.three.img} desc={data.three.desc}/>
         <ContribComponent title={data.one.title} issue={data.one.issue} href={data.one.href} src={data.one.img} desc={data.one.desc}/>
@@ -24,7 +31,7 @@ const ContribComponent = (props) => {
   return (
     <div className="contrib">
       <h5>{props.title}</h5>
-      <a href={props.issue} target='_blank'm rel='noreferrer'>Link to original issue</a>
+      <a href={props.issue} target='_blank'm rel='noreferrer'>Bug Report</a>
       <div className="contribContent">
         <div className="contribImg">
           <a href={props.href} target='_blank' rel='noreferrer'>
@@ -47,11 +54,15 @@ const ContribComponent = (props) => {
 }
 
 const data = {
+  profile: {
+    href: 'https://chromium-review.googlesource.com/q/owner:w.hernandez.code%2540gmail.com',
+    img: '/img/bitmoji.png'
+  },
   one: {
     title: 'Pretty-print directly visited minified asset files.',
     issue: 'https://bugs.chromium.org/p/chromium/issues/detail?id=1019785&hotlist_id=10185&sort=%20rank%20-ID',
-    href:'https://chromium-review.googlesource.com/c/devtools/devtools-frontend/+/2572038/',
-    img:'/img/2572038.jpg',
+    href: 'https://chromium-review.googlesource.com/c/devtools/devtools-frontend/+/2572038/',
+    img: '/img/2572038.jpg',
     desc: 'Fixed the order in which a visited pages mimeType was set. Added a new mimeType to recognize and allow the formatting of minified asset files when directly visited on a webpage.'
   },
   two: {
