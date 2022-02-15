@@ -13,7 +13,6 @@ const Header = () => {
   return (
     <Container className='headerContainer'>
       <Row>
-        <img src= '/img/profileImg.jpg' alt=''/>
         <div className='infoContainer'>
           <h2>Will Hernandez</h2>
           <h3>Software Developer</h3>
