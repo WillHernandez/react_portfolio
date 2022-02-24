@@ -11,13 +11,14 @@ const Skills = () => {
           <ul>
             <li>Javscript</li>
             <li>Typescript</li>
+            <li>Python</li>
+            <li>Django</li>
             <li>HTML</li>
             <li>CSS</li>
             <li>React</li>
-            <li>Node JS</li>
+            <li>Jest testing</li>
             <li>Mocha testing</li>
             <li>Karma testing</li>
-            <li>Jest testing</li>
             <li>Git/Mercurial</li>
           </ul>
         </div>
