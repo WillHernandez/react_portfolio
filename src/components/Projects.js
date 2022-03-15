@@ -2,7 +2,7 @@ import React from 'react'
 import Container from 'react-bootstrap/Container';
 import "bootstrap/dist/css/bootstrap.min.css";
 
-export default function Projects(props) {
+export default function Projects() {
   return (
     <Container className='outerContainer'>
       <div className="innerContainer projectsContainer">
