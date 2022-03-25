@@ -19,8 +19,8 @@ export default function Projects() {
 
 const links = {
   one: {
+    live: "https://determined-mcnulty-72601a.netlify.app/",
     url: "https://currency-api-will-h.herokuapp.com/currencies/",
     git: "https://github.com/WillHernandez/currencyapi",
-    live: "https://determined-mcnulty-72601a.netlify.app/",
   }
 }
