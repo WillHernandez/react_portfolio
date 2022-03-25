@@ -9,7 +9,11 @@ export default function Projects() {
         <h3>Projects</h3>
         <div className="projects">
         <ul>
-          <li> <a href={links.one.live} target='_blank' rel='noreferrer'>Live Website</a> | <a href={links.one.url} target='_blank' rel='noreferrer'>Exchange Rate API</a> | <a href={links.one.git} target='_blank' rel='noreferrer'>GitHub</a> - Django REST framework</li>
+          <li> 
+            <a href={links.currency.live} target='_blank' rel='noreferrer'>Live Website</a> | 
+            <a href={links.currency.url} target='_blank' rel='noreferrer'>Exchange Rate API</a> | 
+            <a href={links.currency.git} target='_blank' rel='noreferrer'>GitHub</a> - Django REST framework
+          </li>
         </ul>
         </div>
       </div>
@@ -18,7 +22,7 @@ export default function Projects() {
 }
 
 const links = {
-  one: {
+  currency: {
     live: "https://determined-mcnulty-72601a.netlify.app/",
     url: "https://currency-api-will-h.herokuapp.com/currencies/",
     git: "https://github.com/WillHernandez/currencyapi",
