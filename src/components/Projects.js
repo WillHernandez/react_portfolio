@@ -10,8 +10,8 @@ export default function Projects() {
         <div className="projects">
         <ul>
           <li> 
-            <a href={links.currency.live} target='_blank' rel='noreferrer'>Live Website</a> | 
-            <a href={links.currency.url} target='_blank' rel='noreferrer'>Exchange Rate API</a> | 
+            <a href={links.currency.live} target='_blank' rel='noreferrer'>Live Website</a> |  
+            <a href={links.currency.url} target='_blank' rel='noreferrer'>Exchange Rate API</a> |  
             <a href={links.currency.git} target='_blank' rel='noreferrer'>GitHub</a> - Django REST framework
           </li>
         </ul>
