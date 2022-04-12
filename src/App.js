@@ -11,24 +11,21 @@ import {
   Route,
 } from "react-router-dom";
 
-const App = () => {
-  return (
-    <Router>
-      <Route path='/' exact component={Home} />
-      <Route path='/contributions' component={MoreContributions} />
-    </Router>
-  )
-}
-export default App;
+const App = () => (
+  <Router>
+    <Route path='/' exact component={Home} />
+    <Route path='/contributions' component={MoreContributions} />
+  </Router>
+)
 
-const Home = () => {
-  return (
-    <div className="homeComponent">
-      <Header />
-      <AboutMe />
-      <Contributions />
-      <Projects />
-      <Skills />
-    </div>
-  )
-}
+const Home = () => (
+  <div className="homeComponent">
+    <Header />
+    <AboutMe />
+    <Contributions />
+    <Projects />
+    <Skills />
+  </div>
+)
+
+export default App;
