@@ -78,9 +78,12 @@ const projectLinks = [
 
 const skills =             
 [
+'Mongo',
+'Express',
+'React',
+'NodeJS',
 'Javascript',
 'Typescript',
-'React',
 'HTML',
 'CSS/SASS',
 'Python',
