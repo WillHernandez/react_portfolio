@@ -21,7 +21,7 @@ const MoreContributions = () => (
 
 const RenderContribs = ({contribs}) => (
   contribs.map(contrib => (
-    <Contribution contrib={contrib} key={contrib.key} />
+    <Contribution contrib={contrib} />
   ))
 )
 RenderContribs.propTypes = {
