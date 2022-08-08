@@ -70,10 +70,23 @@ const moreContribData = [
 const projectLinks = [
   {
     key: 1,
+    website:"Workout Tracker live-site",
+    live: "https://frolicking-ganache-42824a.netlify.app/",
+    apiGitUrl: "https://github.com/WillHernandez/currencyapi",
+    apiUrl: "https://workout-tracker-will-h.herokuapp.com/api/workouts",
+    frontGit: "https://github.com/WillHernandez/WorkoutTracker-frontend",
+    backGit: "https://github.com/WillHernandez/WorkoutTracker-backend",
+    tech: "MERN - MongoDb, Express, React, NodeJs"
+  },
+  {
+    key: 2,
     live: "https://determined-mcnulty-72601a.netlify.app/",
-    url: "https://currency-api-will-h.herokuapp.com/currencies/",
-    git: "https://github.com/WillHernandez/currencyapi",
-  }
+    website:"Exchange Rate live-site",
+    apiUrl: "https://currency-api-will-h.herokuapp.com/currencies/",
+    frontGit: "https://github.com/WillHernandez/exchangeRateCalculator",
+    backGit: "https://github.com/WillHernandez/currencyapi",
+    tech: "HTML/CSS/JS - Python Django REST Framework"
+  },
 ]
 
 const skills =             

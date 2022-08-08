@@ -20,9 +20,10 @@ const Projects = () => (
 const RenderWebsite = ({sites}) => ( 
   sites.map(site => (
     <li key={site.key}>
-      <a href={site.live} target='_blank' rel='noreferrer'>Live Website</a> |  
-      <a href={site.url} target='_blank' rel='noreferrer'>Exchange Rate API</a> |  
-      <a href={site.git} target='_blank' rel='noreferrer'>GitHub</a> - Django REST framework
+      <a href={site.live} target='_blank' rel='noreferrer'> {site.website}</a> | 
+      <a href={site.frontGit}target='_blank' rel='noreferrer'>  Front-End Code </a> |
+      <a href={site.apiUrl} target='_blank' rel='noreferrer'> API </a> | 
+      <a href={site.backGit} target='_blank' rel='noreferrer'> Back-End Code</a> | {site.tech}
     </li>
   ))
 )
