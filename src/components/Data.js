@@ -49,18 +49,24 @@ const contribData = [
 const moreContribData = [
 	{
 		key: 1,
+    link: 'https://bugs.chromium.org/p/chromium/issues/detail?id=1353829&q=component%3APlatform%3EDevTools%20status%3DAvailable%20type%3DBug&can=2',
+    href: 'https://chromium-review.googlesource.com/c/devtools/devtools-frontend/+/3899152/',
+    desc:"Fixed a bug where console.table(['']) would not recognize empty string elements.",
+  },
+	{
+		key: 2,
     link: 'https://bugs.chromium.org/p/chromium/issues/detail?id=998674&q=component%3APlatform%3EDevTools%20json&can=2&start=100',
     href: 'https://chromium-review.googlesource.com/c/devtools/devtools-frontend/+/3055035/',
     desc:"Corrected a previous patch I had submitted. JSON formatter now respects the user's indentation level provided in Chrome Settings > Preference > Sources section > Default indentation",
   },
 	{
-		key: 2,
+		key: 3,
     link: 'https://bugs.chromium.org/p/chromium/issues/detail?id=1137733',
     href: 'https://chromium-review.googlesource.com/c/devtools/devtools-frontend/+/2493185',
     desc:'Prevent “Emulated Devices” text from wrapping. Changed a style property on the “Emulated Devices” h1 to prevent it from wrapping to the next line and clashing with the "Add custom device” button when the DevTools window is resized.',
   },
 	{
-		key: 3,
+		key: 4,
     link: 'https://bugs.chromium.org/p/chromium/issues/detail?id=1070605',
     href: 'https://chromium-review.googlesource.com/c/devtools/devtools-frontend/+/2606131/',
     desc: 'Work In Progress.',
@@ -70,9 +76,8 @@ const moreContribData = [
 const projectLinks = [
   {
     key: 1,
-    website:"Workout Tracker live-site",
     live: "https://frolicking-ganache-42824a.netlify.app/",
-    apiGitUrl: "https://github.com/WillHernandez/currencyapi",
+    website:"Workout Tracker live-site",
     apiUrl: "https://workout-tracker-will-h.herokuapp.com/api/workouts",
     frontGit: "https://github.com/WillHernandez/WorkoutTracker-frontend",
     backGit: "https://github.com/WillHernandez/WorkoutTracker-backend",
@@ -100,7 +105,7 @@ const skills =
 'HTML',
 'CSS/SASS',
 'Python',
-'Django',
+'Django / REST',
 'Jest testing',
 'Mocha testing',
 'Karma testing',
