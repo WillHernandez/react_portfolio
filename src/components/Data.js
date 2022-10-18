@@ -92,6 +92,12 @@ const projectLinks = [
     backGit: "https://github.com/WillHernandez/currencyapi",
     tech: "HTML/CSS/JS - Python Django REST Framework"
   },
+  {
+    key: 2,
+    live: "https://github.com/WillHernandez/Ninjas_API",
+    website:"Ninjas Api",
+    tech: "MERN - MongoDb, Express, NodeJs"
+  },
 ]
 
 const skills =             

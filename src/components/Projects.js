@@ -21,9 +21,17 @@ const RenderWebsite = ({sites}) => (
   sites.map(site => (
     <li key={site.key}>
       <a href={site.live} target='_blank' rel='noreferrer'> {site.website}</a> | 
-      <a href={site.frontGit}target='_blank' rel='noreferrer'>  Front-End Code </a> |
-      <a href={site.apiUrl} target='_blank' rel='noreferrer'> API </a> | 
-      <a href={site.backGit} target='_blank' rel='noreferrer'> Back-End Code</a> | {site.tech}
+      {site.frontGit && 
+        <a href={site.frontGit}target='_blank' rel='noreferrer'> Front-End Code </a>
+      }
+      {site.apiUrl &&
+        <a href={site.apiUrl} target='_blank' rel='noreferrer'> API </a>
+      }
+       | 
+      {site.backGit &&
+        <a href={site.backGit} target='_blank' rel='noreferrer'> Back-End Code</a>
+      }
+       | {site.tech}
     </li>
   ))
 )
