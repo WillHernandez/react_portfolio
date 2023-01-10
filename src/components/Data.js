@@ -76,6 +76,15 @@ const moreContribData = [
 const projectLinks = [
   {
     key: 1,
+    live: "https://will-knife-shop.netlify.app/",
+    website:"Pocket Knifes R US",
+    apiUrl: "https://will-knife-shop.netlify.app/",
+    frontGit: "https://github.com/WillHernandez/knife-shop",
+    backGit: "https://github.com/WillHernandez/shop-rest-api",
+    tech: "MERN - MongoDb, Mongoose, Express, React, NodeJs"
+  },
+  {
+    key: 2,
     live: "https://frolicking-ganache-42824a.netlify.app/",
     website:"Workout Tracker live-site",
     apiUrl: "https://workout-tracker-will-h.herokuapp.com/api/workouts",
@@ -84,7 +93,7 @@ const projectLinks = [
     tech: "MERN - MongoDb, Express, React, NodeJs"
   },
   {
-    key: 2,
+    key: 3,
     live: "https://determined-mcnulty-72601a.netlify.app/",
     website:"Exchange Rate live-site",
     apiUrl: "https://currency-api-will-h.herokuapp.com/currencies/",
@@ -93,7 +102,7 @@ const projectLinks = [
     tech: "HTML/CSS/JS - Python Django REST Framework"
   },
   {
-    key: 2,
+    key: 4,
     live: "https://github.com/WillHernandez/Ninjas_API",
     website:"Ninjas Api",
     tech: "MERN - MongoDb, Express, NodeJs"
