@@ -78,7 +78,6 @@ const projectLinks = [
     key: 1,
     live: "https://will-knife-shop.netlify.app/",
     website:"Pocket Knifes R US",
-    apiUrl: "https://will-knife-shop.netlify.app/",
     frontGit: "https://github.com/WillHernandez/knife-shop",
     backGit: "https://github.com/WillHernandez/shop-rest-api",
     tech: "MERN - MongoDb, Mongoose, Express, React, NodeJs"
@@ -87,7 +86,6 @@ const projectLinks = [
     key: 2,
     live: "https://frolicking-ganache-42824a.netlify.app/",
     website:"Workout Tracker live-site",
-    apiUrl: "https://workout-tracker-will-h.herokuapp.com/api/workouts",
     frontGit: "https://github.com/WillHernandez/WorkoutTracker-frontend",
     backGit: "https://github.com/WillHernandez/WorkoutTracker-backend",
     tech: "MERN - MongoDb, Express, React, NodeJs"
@@ -96,7 +94,6 @@ const projectLinks = [
     key: 3,
     live: "https://determined-mcnulty-72601a.netlify.app/",
     website:"Exchange Rate live-site",
-    apiUrl: "https://currency-api-will-h.herokuapp.com/currencies/",
     frontGit: "https://github.com/WillHernandez/exchangeRateCalculator",
     backGit: "https://github.com/WillHernandez/currencyapi",
     tech: "HTML/CSS/JS - Python Django REST Framework"

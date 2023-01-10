@@ -24,9 +24,6 @@ const RenderWebsite = ({sites}) => (
       {site.frontGit && 
         <a href={site.frontGit}target='_blank' rel='noreferrer'> Front-End Code </a>
       }
-      {site.apiUrl &&
-        <a href={site.apiUrl} target='_blank' rel='noreferrer'> API </a>
-      }
        | 
       {site.backGit &&
         <a href={site.backGit} target='_blank' rel='noreferrer'> Back-End Code</a>
