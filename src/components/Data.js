@@ -74,14 +74,14 @@ const moreContribData = [
 ]
 
 const projectLinks = [
-  {
-    key: 1,
-    live: "https://will-knife-shop.netlify.app/",
-    website:"Pocket Knifes R US",
-    frontGit: "https://github.com/WillHernandez/knife-shop",
-    backGit: "https://github.com/WillHernandez/shop-rest-api",
-    tech: "MERN - MongoDb, Mongoose, Express, React, NodeJs"
-  },
+  // {
+  //   key: 1,
+  //   live: "https://will-knife-shop.netlify.app/",
+  //   website:"Pocket Knifes R US",
+  //   frontGit: "https://github.com/WillHernandez/knife-shop",
+  //   backGit: "https://github.com/WillHernandez/shop-rest-api",
+  //   tech: "MERN - MongoDb, Mongoose, Express, React, NodeJs"
+  // },
   {
     key: 2,
     live: "https://frolicking-ganache-42824a.netlify.app/",
