@@ -5,10 +5,10 @@ const AboutMe = () => (
   <Container className='outerContainer'>
     <div className="innerContainer aboutmeContainer">
       <p className='aboutText' style={{marginBottom: '20px'}}>
-        Self-taught programmer currently based in New York City. Proponent of open source softwares and their communities. Over the past several years I have been a steady contributor to the Google Chromium developer tools. The most rewarding part of programming to me, would be the process of using logic to solve difficult problems. I also appreciate the ability to create something new and inspiring. I am open to the idea of relocating.
+        I am a self-taught programmer currently residing in the vibrant city of New York. With a strong passion for open source software and its communities, I have actively contributed to the Google Chromium developer tools for several years. What truly captivates me about programming is the exhilarating challenge of applying logical thinking to solve intricate problems. I find great satisfaction in the ability to create innovative and inspiring solutions. Additionally, I am open to the possibility of relocating to explore new opportunities.
       </p>
      <p className='aboutText'>
-      Becoming a proficient software engineer isn't memorizing the syntax of a programming language but rather the ability so solve problems with it.
+        Becoming a proficient software engineer isn't memorizing the syntax of a programming language but rather the ability so solve problems with it.
      </p>
     </div>
   </Container>

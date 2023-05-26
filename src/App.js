@@ -5,6 +5,7 @@ import Contributions from './components/Contributions';
 import Skills from './components/Skills';
 import MoreContributions from './components/MoreContributions';
 import Projects from './components/Projects';
+import Badges from './components/Badges';
 
 import {
   BrowserRouter as Router,
@@ -22,6 +23,7 @@ const Home = () => (
   <div className="homeComponent">
     <Header />
     <AboutMe />
+    <Badges />
     <Contributions />
     <Projects />
     <Skills />

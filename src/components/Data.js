@@ -125,6 +125,14 @@ const skills =
 'Git/Mercurial',
 ]
 
+const badges = [
+  {
+    key: 1,
+    img: '/img/aws_cda.png',
+    title: "AWS Certified Developer - Associate",
+    href: 'https://www.credly.com/badges/63a4f507-9455-4131-8a2d-5cd3d4e2aac7/public_url'
+  }
+]
 
 export {
 	email,
@@ -135,4 +143,5 @@ export {
 	moreContribData,
 	projectLinks,
 	skills,
+  badges
 }
