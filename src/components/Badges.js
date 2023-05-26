@@ -15,8 +15,7 @@ const RenderBadges = ({badges}) => (
 			<a href={badge.href} target='_blank' rel='noreferrer'>
 				<img src={badge.img} alt="" />
 			</a>
-			<p>{badge.title}</p>
-			<a href={badge.href} target='_blank' rel='noreferrer'>Details</a>
+			<a href={badge.href} target='_blank' rel='noreferrer'><p>{badge.title}</p></a>
 		</div>
 	))
 )
