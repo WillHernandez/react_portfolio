@@ -83,12 +83,20 @@ const projectLinks = [
   //   tech: "MERN - MongoDb, Mongoose, Express, React, NodeJs"
   // },
   {
+    key: 1,
+    live: "https://willsfilestorage.netlify.app/",
+    website:"AWS File Storage",
+    frontGit: "https://github.com/WillHernandez/file_storage_cra",
+    backGit: "https://github.com/WillHernandez/file_storage_backend_original",
+    tech: "MERN - MongoDb, Express, React, NodeJS / AWS S3, Cognito"
+  },
+  {
     key: 2,
     live: "https://frolicking-ganache-42824a.netlify.app/",
     website:"Workout Tracker live-site",
     frontGit: "https://github.com/WillHernandez/WorkoutTracker-frontend",
     backGit: "https://github.com/WillHernandez/WorkoutTracker-backend",
-    tech: "MERN - MongoDb, Express, React, NodeJs"
+    tech: "MERN - MongoDb, Express, React, NodeJS"
   },
   {
     key: 3,
@@ -102,7 +110,7 @@ const projectLinks = [
     key: 4,
     live: "https://github.com/WillHernandez/Ninjas_API",
     website:"Ninjas Api",
-    tech: "MERN - MongoDb, Express, NodeJs"
+    tech: "MERN - MongoDb, Express, NodeJS"
   },
 ]
 
