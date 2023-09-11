@@ -24,8 +24,8 @@ const Home = () => (
     <Header />
     <AboutMe />
     <Badges />
-    <Contributions />
     <Projects />
+    <Contributions />
     <Skills />
   </div>
 )
