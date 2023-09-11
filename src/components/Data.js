@@ -74,14 +74,6 @@ const moreContribData = [
 ]
 
 const projectLinks = [
-  // {
-  //   key: 1,
-  //   live: "https://will-knife-shop.netlify.app/",
-  //   website:"Pocket Knifes R US",
-  //   frontGit: "https://github.com/WillHernandez/knife-shop",
-  //   backGit: "https://github.com/WillHernandez/shop-rest-api",
-  //   tech: "MERN - MongoDb, Mongoose, Express, React, NodeJs"
-  // },
   {
     key: 1,
     live: "https://willsfilestorage.netlify.app/",
@@ -92,22 +84,30 @@ const projectLinks = [
   },
   {
     key: 2,
+    live: "https://will-knife-shop.netlify.app/",
+    website:"Pocket Knifes R US",
+    frontGit: "https://github.com/WillHernandez/knife-shop",
+    backGit: "https://github.com/WillHernandez/shop-rest-api",
+    tech: "MERN - MongoDb, Mongoose, Express, React, NodeJs"
+  },
+  {
+    key: 3,
     live: "https://frolicking-ganache-42824a.netlify.app/",
     website:"Workout Tracker live-site",
     frontGit: "https://github.com/WillHernandez/WorkoutTracker-frontend",
     backGit: "https://github.com/WillHernandez/WorkoutTracker-backend",
     tech: "MERN - MongoDb, Express, React, NodeJS"
   },
+  // {
+  //   key: 4,
+  //   live: "https://determined-mcnulty-72601a.netlify.app/",
+  //   website:"Exchange Rate live-site",
+  //   frontGit: "https://github.com/WillHernandez/exchangeRateCalculator",
+  //   backGit: "https://github.com/WillHernandez/currencyapi",
+  //   tech: "HTML/CSS/JS - Python Django REST Framework"
+  // },
   {
-    key: 3,
-    live: "https://determined-mcnulty-72601a.netlify.app/",
-    website:"Exchange Rate live-site",
-    frontGit: "https://github.com/WillHernandez/exchangeRateCalculator",
-    backGit: "https://github.com/WillHernandez/currencyapi",
-    tech: "HTML/CSS/JS - Python Django REST Framework"
-  },
-  {
-    key: 4,
+    key: 5,
     live: "https://github.com/WillHernandez/Ninjas_API",
     website:"Ninjas Api",
     tech: "MERN - MongoDb, Express, NodeJS"
