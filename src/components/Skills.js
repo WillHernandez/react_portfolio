@@ -10,14 +10,14 @@ const Skills = () => (
       <div className="skillsContainer">
         <h3>Skills</h3>
         <ul>
-          <RenderSkills skills={skills}/>
+          <RenderSkills skills={skills} />
         </ul>
       </div>
     </div>
   </Container>
 )
 
-const RenderSkills = ({skills}) => (
+const RenderSkills = ({ skills }) => (
   skills.map((skill, i) => (
     <li key={i}>{skill}</li>
   ))
