@@ -10,6 +10,9 @@ const Projects = () => (
       <h3>Projects</h3>
       <div className="projects">
       <ul>
+			<i>
+				<p>Websites may take time to load as they are hosted/deployed on free services.</p>
+			</i>
         <RenderWebsite sites={projectLinks} />
       </ul>
       </div>
@@ -20,15 +23,33 @@ const Projects = () => (
 const RenderWebsite = ({sites}) => ( 
   sites.map(site => (
     <li key={site.key}>
-      <a href={site.live} target='_blank' rel='noreferrer'> {site.website}</a> | 
+      <a href={site.live} target='_blank' rel='noreferrer'>
+				<>
+					{site.website}
+					&nbsp;
+				</>
+			</a>  
+					| 
       {site.frontGit && 
-        <a href={site.frontGit}target='_blank' rel='noreferrer'> Front-End Code </a>
+				<>
+				&nbsp;
+        <a href={site.frontGit}target='_blank' rel='noreferrer'> 
+					{site.backGit ? "Client-Side Code" : "Code"}
+				</a>
+				&nbsp;
+				</>
       }
        | 
       {site.backGit &&
-        <a href={site.backGit} target='_blank' rel='noreferrer'> Back-End Code</a>
+				<>
+        	<a href={site.backGit} target='_blank' rel='noreferrer'> Server-Side Code </a>
+					| 
+				</>
       }
-       | {site.tech}
+			<>
+				&nbsp;
+				{site.tech}
+			</>
     </li>
   ))
 )

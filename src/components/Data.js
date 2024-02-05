@@ -85,6 +85,13 @@ const projectLinks = [
   },
   {
     key: 2,
+    live: "https://django-news-blog.onrender.com/",
+    website:"Django News-Blog live-site",
+    frontGit: "https://github.com/WillHernandez/django-news/tree/main",
+    tech: "Python Django, HTML, CSS"
+  },
+  {
+    key: 3,
     live: "https://will-knife-shop.netlify.app/",
     website: "Pocket Knifes R US",
     frontGit: "https://github.com/WillHernandez/knife-shop",
@@ -92,7 +99,7 @@ const projectLinks = [
     tech: "MERN - MongoDb, Mongoose, Express, React, NodeJs"
   },
   {
-    key: 3,
+    key: 4,
     live: "https://frolicking-ganache-42824a.netlify.app/",
     website: "Workout Tracker live-site",
     frontGit: "https://github.com/WillHernandez/WorkoutTracker-frontend",
@@ -107,12 +114,12 @@ const projectLinks = [
   //   backGit: "https://github.com/WillHernandez/currencyapi",
   //   tech: "HTML/CSS/JS - Python Django REST Framework"
   // },
-  {
-    key: 5,
-    live: "https://github.com/WillHernandez/Ninjas_API",
-    website: "Ninjas Api",
-    tech: "MERN - MongoDb, Express, NodeJS"
-  },
+  // {
+  //   key: 5,
+  //   live: "https://github.com/WillHernandez/Ninjas_API",
+  //   website: "Ninjas Api",
+  //   tech: "MERN - MongoDb, Express, NodeJS"
+  // },
 ]
 
 const skills =
@@ -120,17 +127,15 @@ const skills =
     'Javascript',
     'Typescript',
     'MongoDB',
-    'MySQL',
     'Express',
     'React',
     'NodeJS',
-    'Moongoose',
-    'Golang',
+    'SQL / MYSQL / MySQLWorkbench',
     'Python',
-    'Django-REST-framework',
-    'HTML',
-    'CSS/SASS',
-    'Jest/Mocha/Chai/Karma testing',
+    'Django / REST-Framework',
+    'Golang',
+    'CSS/SASS/SCSS',
+    'Jest/Mocha/Chai/Karma Testing / TDD',
     'Git/Mercurial',
   ]
 
