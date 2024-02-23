@@ -100,12 +100,20 @@ const projectLinks = [
   },
   {
     key: 4,
-    live: "https://frolicking-ganache-42824a.netlify.app/",
-    website: "Workout Tracker live-site",
-    frontGit: "https://github.com/WillHernandez/WorkoutTracker-frontend",
-    backGit: "https://github.com/WillHernandez/WorkoutTracker-backend",
-    tech: "MERN - MongoDb, Express, React, NodeJS"
+		live: "https://github.com/WillHernandez/session_auth",
+    website: "Django REST API with Authentication/Authorization tokens",
+    // frontGit: "https://github.com/WillHernandez/WorkoutTracker-frontend",
+    // backGit: "https://github.com/WillHernandez/session_auth",
+    tech: "Python - Django REST"
   },
+  // {
+  //   key: 4,
+  //   live: "https://frolicking-ganache-42824a.netlify.app/",
+  //   website: "Workout Tracker live-site",
+  //   frontGit: "https://github.com/WillHernandez/WorkoutTracker-frontend",
+  //   backGit: "https://github.com/WillHernandez/WorkoutTracker-backend",
+  //   tech: "MERN - MongoDb, Express, React, NodeJS"
+  // },
   // {
   //   key: 4,
   //   live: "https://determined-mcnulty-72601a.netlify.app/",
