@@ -2,9 +2,9 @@ import React from 'react'
 import Container from 'react-bootstrap/Container';
 import Row from 'react-bootstrap/Row';
 import "bootstrap/dist/css/bootstrap.min.css";
-import { AiFillMail, AiOutlineLinkedin } from "react-icons/ai";
+import { AiFillMail, AiOutlineLinkedin, AiTwotoneFile} from "react-icons/ai";
 import { FaGithubSquare, FaCity } from "react-icons/fa";
-import { email, github, linkedIn } from './Data';
+import { email, resume, github, linkedIn } from './Data';
 
 const Header = () => (
   <Container className='headerContainer'>
@@ -18,6 +18,10 @@ const Header = () => (
           <li>
             <AiFillMail id='faIcon' />
             <a href={email}>w.hernandez.code@gmail.com</a>
+          </li>
+					<li>
+            <AiTwotoneFile id='faIcon' />
+            <a href={resume} rel='noreferrer' target='_blank'>Resume Link</a>
           </li>
           <li>
             <FaGithubSquare id='faIcon' />
