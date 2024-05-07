@@ -1,7 +1,7 @@
 const email = "mailto:w.hernandez.code@gmail.com";
 const github = "https://github.com/WillHernandez";
 const linkedIn = "https://www.linkedin.com/in/will-hernandez-16325a88/"
-const resume = "https://drive.google.com/file/d/1ou2kRYDXSo3FDg-MeIyMdQWRpyA6hBD_/view?usp=drive_link"
+const resume = "https://drive.google.com/file/d/1zyPF6rIjiGt6AEiZEsfzzfWfS3k4ISBr/view?usp=drive_link"
 const chromeProfile = 'https://chromium-review.googlesource.com/q/owner:w.hernandez.code%2540gmail.com';
 const chromeImg = '/img/bitmoji.png';
 
@@ -135,16 +135,18 @@ const skills =
   [
     'Javascript',
     'Typescript',
+		'MERN',
     'MongoDB',
     'Express',
     'React',
     'NodeJS',
-    'SQL / MYSQL / MySQLWorkbench',
+		'Next.JS',
+    'SQL / MYSQL / noSQL',
     'Python',
     'Django / REST-Framework',
     'Golang',
     'CSS/SASS/SCSS',
-    'Jest/Mocha/Chai/Karma Testing / TDD',
+    'Jest/Mocha/Chai/Karma Testing',
     'Git/Mercurial',
   ]
 
